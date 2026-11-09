@@ -1,12 +1,6 @@
 @charset "UTF-8";
-
 @use "mixin" as mixin;
 
-// 数値まとめる $を使う
-// :root {
-//   --back-color: #282828;
-//   --text-colur: #fff;
-// }
 $back-color: #282828;
 $text-colur: #fff;
 
@@ -14,7 +8,6 @@ body {
   background-color: #282828;
   color: #fff;
 
-  // add 20251028 お偉の5yoBo~~~囧
   .white {
     background-color: #f9f9f9;
     color: #282828;
