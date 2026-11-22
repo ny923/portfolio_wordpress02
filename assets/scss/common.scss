@@ -45,9 +45,7 @@ body {
   padding-bottom: 100px;
 }
 
-// , .section-links
 .section:not(.section-hero) + .section {
-  // padding-top: 100px;
   padding-bottom: 100px;
 }
 
@@ -141,7 +139,7 @@ body {
 }
 
 .footer {
-  padding: 0 0 50px; //50px 0 50px
+  padding: 0 0 50px;
 
   &-info {
     display: flex;
@@ -175,45 +173,6 @@ body {
     }
   }
 
-  // &-tel {
-  //   background-color: rgba(255, 255, 255, 0.1);
-  //   border-radius: 5px;
-  //   border: 1px solid #fff;
-  //   height: fit-content;
-  //   text-align: center;
-  //   padding: 30px;
-  //   line-height: 1;
-
-  //   @include mixin.sp {
-  //     width: 90%;
-  //     margin-top: 15px;
-  //   }
-  // }
-
-  // .tel {
-  //   font-family: "Inter", sans-serif;
-  //   font-weight: bold;
-  //   font-size: 4rem;
-  //   margin-top: 15px;
-  //   display: block;
-
-  //   @include mixin.sp {
-  //     font-size: 3.4rem;
-  //     white-space: nowrap;
-  //   }
-
-  //   &::before {
-  //     display: inline-block;
-  //     content: "";
-  //     background-image: url(../img/common/tel.svg);
-  //     background-repeat: no-repeat;
-  //     background-position: center;
-  //     background-size: contain;
-  //     width: 30px;
-  //     height: 32px;
-  //   }
-  // }
-
   &-list {
     display: flex;
     justify-content: center;
@@ -236,14 +195,11 @@ body {
     display: inline-block;
     font-size: 1.4rem;
 
-    // @include mixin.pc {
     border-right: 1px solid #fff;
 
     &:last-of-type {
       border-right: none;
     }
-
-    // }
 
     @include mixin.sp {
       border-right: none;
@@ -349,7 +305,6 @@ body {
 // nav
 /*__ header _______________________*/
 .site-header {
-  // background-color: rgba(0, 0, 0, 0.5);
   background-color: #282828;
   position: fixed;
   z-index: 2;
@@ -402,7 +357,6 @@ body {
     }
   }
 
-  // &.black {}
 }
 
 .globalnav {
@@ -669,14 +623,6 @@ $aos-distance: 20px !important;
     padding-inline: 18px;
   }
 
-  // @include mixin.pc {
-  //   .prev,
-  //   .next {
-  //     font-size: 80%;
-  //     padding: 17px;
-  //   }
-  // }
-
   @include mixin.sp {
     .page-numbers {
       display: none;
@@ -696,8 +642,6 @@ $aos-distance: 20px !important;
 }
 
 // 商品一覧
-// .section-item.white {}
-
 .item {
   &-list {
     display: flex;

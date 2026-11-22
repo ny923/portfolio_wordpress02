@@ -54,10 +54,7 @@ function custom_search_template($template)
  * @param string|null $icon_url メニューに表示するアイコンの URL
  * @param int $position メニューの位置
  */
-// 第三引数は権限のレベル 管理者：manage_options
 SCF::add_options_page('スライダー', 'スライド画像', 'edit_pages', 'slider-options');
-// SCF::add_options_page('youtube', 'youtube動画', 'edit_pages', 'youtube-options');
-// SCF::add_options_page('POP', 'POP画像', 'edit_pages', 'pop-options');
 
 // contact form7 p、brタグの自動挿入を停止
 function custom_wpcf7_autop_false()

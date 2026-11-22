@@ -1,5 +1,4 @@
 @charset "UTF-8";
-// @import 'mixin';
 @use "mixin" as mixin;
 
 .is-top {
@@ -38,7 +37,6 @@
     }
   }
 
-  // ・・・
   &-pagination-bullet {
     margin: 0 var(--swiper-pagination-bullet-horizontal-gap, 8px) !important;
   }
@@ -51,9 +49,7 @@
         max-height: 90svh;
       }
     }
-    // @include mixin.sp {
     height: auto;
-    // }
     display: flex;
     justify-content: center;
     align-items: center;

@@ -58,7 +58,6 @@
   <meta property="og:site_name" content="<?php bloginfo('name'); ?>のWebサイト" />
   <meta property="og:image" content="<?php echo get_template_directory_uri(); ?>/assets/img/common/ogp.jpg" />
   <meta name="twitter:image" content="<?php echo get_template_directory_uri(); ?>/assets/img/common/ogp.jpg">
-  <!-- <meta property="fb:app_id" content="123********" /> -->
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <?php
@@ -167,7 +166,6 @@
 
 
   <?php
-  //echo get_the_ID(); // 開発中のみ！
   ?>
 
   <div class="wrap">
@@ -178,9 +176,8 @@
 
         <h1 class="brand-logo">
           <a href="<?= site_url(); ?>/">
-            <!-- logo.png -->
+            <!-- logo.svg -->
             <img src="<?php echo get_template_directory_uri(); ?>/assets/img/common/logo.svg" alt="東京フェンシング商会">
-            <!-- <p class="brand-logo__text pc">東京フェンシング商会</p> -->
           </a>
         </h1>
 

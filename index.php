@@ -190,21 +190,11 @@ Template Name:front-page
   <div class="section-content row w1000" data-aos="fade-up" anchor="#section-calendar" data-aos-once="true" data-aos-duration="1000">
     <div class="calendar">
 
-      <!-- googleカレンダーの場合 -->
-      <!-- <div id="MonthCal" class="calendar-prev"></div>
-      <div id="nextMonthCal" class="calendar-next"></div> -->
-
       <!-- event-calendarの場合 -->
       <div class="calendar-wrapper">
         <div id="calendar" class="calendar-sel"></div>
         <div id="calendarNext" class="calendar-sel"></div>
       </div>
-
-      <!-- FullCalendar ↑とほぼ変わらず没
-      <div class="calendar-wrapper">
-        <div id="calendar" class="calendar-sel"></div>
-        <div id="calendarNext" class="calendar-sel"></div>
-      </div> -->
 
       <p class="calendar__text">グレー部分が休業日となります。</p>
 

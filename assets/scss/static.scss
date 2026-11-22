@@ -1,5 +1,4 @@
 @charset "UTF-8";
-// @import 'mixin';
 @use "mixin" as mixin;
 
 // 固定ページ全共通 topでも使用
@@ -109,7 +108,6 @@
 
   // 以下edit用
   &.edit {
-    // padding-top: 60px;
     a {
       text-decoration: underline;
       text-underline-offset: 7px;
