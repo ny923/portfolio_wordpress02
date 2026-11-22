@@ -18,7 +18,7 @@ function generateWeeklyEvents(startDate, weeks, title) {
     }
     return events;
 }
-// 今週から0週間分のイベントを作成
+// 2025-12-02から999週間分の毎週イベントを作成
 const weeklyEvents = generateWeeklyEvents('2025-12-02', 999, '');
 
 

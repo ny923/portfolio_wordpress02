@@ -44,11 +44,6 @@ Template Name:thanks
         <p class="contact__text">3営業日以内に返信いたしますので、今しばらくお待ち下さい。</p>
       </div>
 
-      <!-- <div class="contact-form">
-        <p class="contact__text">お問い合わせ誠にありがとうございます。</p>
-        <p class="contact__text">3営業日以内に返信いたしますので、今しばらくお待ち下さい。</p>
-      </div> -->
-
     </div>
 
   </div>

@@ -20,10 +20,6 @@
           <p class="close-open">定休日：火曜日　営業時間：10:00～18:30</p>
           <p class="tel">TEL：<a href="tel:0358483126" class="tel">03-5848-3126</a></p>
         </div>
-        <!-- <div class="footer-tel">
-          <p class="">お電話でのお問い合わせ</p>
-          <a href="tel:0358483126" class="tel">03-5848-3126</a>
-        </div> -->
       </div>
 
       <?php wp_nav_menu(array(

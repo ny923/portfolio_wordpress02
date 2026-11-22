@@ -39,7 +39,6 @@ Template Name:order
 
     <div class="static  edit">
 
-      <!-- editに変更 -->
       <?php the_content() ?>
 
 

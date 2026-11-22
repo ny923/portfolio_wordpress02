@@ -27,12 +27,6 @@
                 </a>
                 <meta itemprop="position" content="2" />
               </li>
-              <!-- <li itemprop="itemListElement" itemscope
-                itemtype="http://schema.org/ListItem">
-                <span itemprop="name"><?php the_title(); ?></span>
-                <meta itemprop="position" content="3" />
-              </li> -->
-
               <?php
               $cats = get_the_category();
               foreach ($cats as $cat):
@@ -51,26 +45,6 @@
             </ol>
           </div>
 
-
-          <!-- カテゴリ
-          <div class="breadcrumbs">
-            <ol itemscope itemtype="http://schema.org/BreadcrumbList">
-              <?php
-              $cats = get_the_category();
-              foreach ($cats as $cat):
-                $cat_name = $cat->name;
-                $cat_url = get_category_link($cat->term_id);
-              ?>
-                <li itemprop="itemListElement" itemscope
-                  itemtype="http://schema.org/ListItem">
-                  <a itemprop="item" href="<?php echo esc_url($cat_url); ?>">
-                    <span itemprop="name"><?php echo esc_html($cat_name); ?></span>
-                    <meta itemprop="position" content="3" />
-                  </a>
-                </li>
-              <?php endforeach; ?>
-            </ol>
-          </div> -->
 
           <h1 class="headline__title"><?php the_title(); ?></h1>
 
@@ -117,9 +91,6 @@
                   <?php
                   $price = (int) SCF::get('price');
                   echo number_format($price);
-
-                  // $scf_field = SCF::get('price');
-                  // echo $scf_field;
                   ?>
                 </span>
                 円(税込)

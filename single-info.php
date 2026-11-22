@@ -50,13 +50,11 @@
         <?php if (has_post_thumbnail()) : ?>
           <?php echo get_the_post_thumbnail(); ?>
         <?php else: ?>
-          <!-- <img src="<?php echo get_template_directory_uri(); ?>/assets/img/common/no-image.webp" alt="no image" decoding="async"> -->
         <?php endif; ?>
       </div>
 
       <!-- 追加日／更新日-->
       <p class="info__date"><time datetime="<?php the_time('Y/m/d'); ?>"><?php the_time('Y/m/d'); ?></time></p>
-      <!--<p><time datetime=""><?php the_modified_date('Y/m/d') ?></time></p>-->
 
       <div class="info__content"><?php the_content() ?></div>
 

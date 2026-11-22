@@ -43,28 +43,6 @@ Template Name: archive-item
           <img src="<?php echo get_template_directory_uri(); ?>/assets/img/item/list-img.jpg" alt="" decoding="async">
         </div>
 
-        <!-- 任意に順番変えられるが、開閉式にするには？
-          menu数多いとエラー起こす？2手に分けても直らず
-        <p>wpカスタマイズmenuの場合</p>
-        <div class="wp-menu">
-          <?php wp_nav_menu(array(
-            'theme_location' => 'sidebar',
-            'menu' => 'category01',
-            'container' => 'ul',
-            'menu_class' => 'category-list',
-            'before' => '<li class="category-item" itemprop="name">',
-            'after' => '</li>',
-          )); ?>
-          <?php wp_nav_menu(array(
-            'theme_location' => 'sidebar',
-            'menu' => 'category02',
-            'container' => 'ul',
-            'menu_class' => 'category-list',
-            'before' => '<li class="category-item" itemprop="name">',
-            'after' => '</li>',
-          )); ?>
-        </div> -->
-
       </div>
 
       <div class="category-right">
@@ -75,8 +53,8 @@ Template Name: archive-item
           function my_category_tree($parent_id = 0, $is_root = false)
           {
             $args = array(
-              'orderby' => 'item', // item
-              'order'   => 'ASC', // DESC
+              'orderby' => 'item',
+              'order'   => 'ASC',
               'parent'  => $parent_id,
             );
             $categories = get_categories($args);

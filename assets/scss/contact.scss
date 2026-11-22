@@ -1,6 +1,5 @@
 @charset "UTF-8";
 
-// @import 'mixin';
 @use "mixin" as mixin;
 
 .is-contact {
@@ -128,7 +127,7 @@
     display: none;
   }
 
-  // reCaptcha
+  // Turnstile
   .cf7-cf-turnstile {
     text-align: center;
     margin-top: 50px !important;
